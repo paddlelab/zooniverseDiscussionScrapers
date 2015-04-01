@@ -1,0 +1,12 @@
+{"startUrl":"http://talk.galaxyzoo.org/#/boards","selectors":[{"parentSelectors":["board_page","board"],"type":"SelectorLink","multiple":true,"id":"thread","selector":"div.discussion-summaries div.list div.title a","delay":""},
+{"parentSelectors":["thread","thread_page"],"type":"SelectorElement","multiple":true,"id":"post","selector":"li div.post","delay":""},
+{"parentSelectors":["post"],"type":"SelectorText","multiple":false,"id":"user","selector":"a.user:nth-of-type(2)","regex":"","delay":""},
+{"parentSelectors":["post"],"type":"SelectorText","multiple":false,"id":"content","selector":"div.content","regex":"","delay":""},
+{"parentSelectors":["post"],"type":"SelectorGroup","id":"links","selector":"p a","delay":"","extractAttribute":"href"},
+{"parentSelectors":["post"],"type":"SelectorText","multiple":false,"id":"date","selector":"span.on-hover","regex":"","delay":""},
+{"parentSelectors":["thread"],"type":"SelectorElementClick","multiple":true,"id":"thread_page","selector":"div.discussion-topic div.pages","clickElementSelector":"div.discussion-topic a.page-link","clickElementUniquenessType":"uniqueText","clickType":"clickMore","discardInitialElements":false,"delay":"4000"},
+{"parentSelectors":["board"],"type":"SelectorElementClick","multiple":true,"id":"board_page","selector":"div.discussion-summaries div.pages","clickElementSelector":"div.discussion-summaries a.page-link","clickElementUniquenessType":"uniqueText","clickType":"clickMore","discardInitialElements":false,"delay":"2000"},
+{"parentSelectors":["thread"],"type":"SelectorElement","multiple":false,"id":"collection","selector":"div.stack.discussions div.one-third","delay":""},
+{"parentSelectors":["collection"],"type":"SelectorLink","multiple":false,"id":"collection_title","selector":"h3 > a","delay":""},
+{"parentSelectors":["collection"],"type":"SelectorText","multiple":false,"id":"collection_user","selector":"a.user","regex":"","delay":""},
+{"parentSelectors":["_root"],"type":"SelectorLink","multiple":true,"id":"board","selector":"div.board-summary div.title a","delay":""}],"_id":"talk_galaxyzoo_org"}
