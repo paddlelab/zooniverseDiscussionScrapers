@@ -1,4 +1,4 @@
-{"startUrl":"http://www.galaxyzooforum.org/index.php?board=18.0","selectors":[{"parentSelectors":["_root","pagination_forum"],"type":"SelectorLink","multiple":true,"id":"pagination_forum","selector":"div.pagelinks.floatleft a.navPages","delay":""},
+{"startUrl":"http://www.galaxyzooforum.org/index.php?board=FORUM ID","selectors":[{"parentSelectors":["_root","pagination_forum"],"type":"SelectorLink","multiple":true,"id":"pagination_forum","selector":"div.pagelinks.floatleft a.navPages","delay":""},
 {"parentSelectors":["_root","pagination_forum"],"type":"SelectorLink","multiple":true,"id":"thread","selector":"td.subject span a","delay":""},
 {"parentSelectors":["thread","pagination_thread"],"type":"SelectorElement","multiple":true,"id":"post","selector":"div.post_wrapper","delay":""},
 {"parentSelectors":["post"],"type":"SelectorText","multiple":false,"id":"user","selector":"h4 a","regex":"","delay":""},
@@ -6,4 +6,4 @@
 {"parentSelectors":["post"],"type":"SelectorText","multiple":false,"id":"text","selector":"div.inner","regex":"","delay":""},
 {"parentSelectors":["thread","pagination_thread"],"type":"SelectorLink","multiple":true,"id":"pagination_thread","selector":"a.navPages","delay":""},
 {"parentSelectors":["post"],"type":"SelectorGroup","id":"links","selector":"div.inner > a.bbc_link","delay":"","extractAttribute":"href"},
-{"parentSelectors":["post"],"type":"SelectorGroup","id":"images","selector":"div.inner > img.bbc_img","delay":"","extractAttribute":"src"}],"_id":"galaxyzoo"}
+{"parentSelectors":["post"],"type":"SelectorGroup","id":"images","selector":"div.inner > img.bbc_img","delay":"","extractAttribute":"src"}],"_id":"galaxyzooforum"}
