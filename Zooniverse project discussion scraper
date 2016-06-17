@@ -1,4 +1,4 @@
-{"startUrl":"XXX/#/boards","selectors":[{"parentSelectors":["board_page","board"],"type":"SelectorLink","multiple":true,"id":"thread","selector":"div.discussion-summaries div.list div.title a","delay":""},
+{"startUrl":"ZOONIVERSE PROJECT URL/#/boards","selectors":[{"parentSelectors":["board_page","board"],"type":"SelectorLink","multiple":true,"id":"thread","selector":"div.discussion-summaries div.list div.title a","delay":""},
 {"parentSelectors":["thread","thread_page"],"type":"SelectorElement","multiple":true,"id":"post","selector":"li div.post","delay":""},
 {"parentSelectors":["post"],"type":"SelectorText","multiple":false,"id":"user","selector":"a.user:nth-of-type(2)","regex":"","delay":""},
 {"parentSelectors":["post"],"type":"SelectorText","multiple":false,"id":"content","selector":"div.content","regex":"","delay":""},
@@ -9,4 +9,4 @@
 {"parentSelectors":["thread"],"type":"SelectorElement","multiple":false,"id":"collection","selector":"div.stack.discussions div.one-third","delay":""},
 {"parentSelectors":["collection"],"type":"SelectorLink","multiple":false,"id":"collection_title","selector":"h3 > a","delay":""},
 {"parentSelectors":["collection"],"type":"SelectorText","multiple":false,"id":"collection_user","selector":"a.user","regex":"","delay":""},
-{"parentSelectors":["_root"],"type":"SelectorLink","multiple":true,"id":"board","selector":"div.board-summary div.title a","delay":""}],"_id":"XXX"}
+{"parentSelectors":["_root"],"type":"SelectorLink","multiple":true,"id":"board","selector":"div.board-summary div.title a","delay":""}],"_id":"zooniverse_talk"}
